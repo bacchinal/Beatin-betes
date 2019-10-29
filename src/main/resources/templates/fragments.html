@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="'http://www.thymeleaf.org/">
+<head th:fragment="head">
+    <meta charset="UTF-8"/>
+    <title th:text="${title}">Beatin' 'Betes</title>
+</head>
+<body>
+<nav th:fragment="navigation">
+    <a href="/betes/login">Login</a> |
+    <a href="/betes/register">Register</a>
+</nav>
+</body>
+</html>
