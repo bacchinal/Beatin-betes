@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="'http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <title></title>
+</head>
+<body>
+    <h1 th:text="${title}">Beatin' 'Betes</h1>
+    <nav th:replace="fragments :: navigation"></nav>
+    <form method="post">
+        <h2>Registration</h2>
+        <table>
+            <tr>
+                <td> <label th:for="name">User</label></td>
+                <td><input id="name" type="text" name="name"  /></td>
+
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input id="password" type="password" name ="password" /></td>
+
+            </tr>
+            <tr>
+                <td><label for="verify">Verify</label></td>
+                <td><input id="verify" type="password" name="verify" /></td>
+
+            </tr>
+        </table>
+        <input type="submit" value="Register" />
+
+    </form>
+</body>
+</html>

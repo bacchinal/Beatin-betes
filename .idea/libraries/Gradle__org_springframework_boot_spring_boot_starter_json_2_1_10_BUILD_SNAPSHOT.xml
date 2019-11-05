@@ -1,11 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: org.springframework.boot:spring-boot-starter-json:2.1.10.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.1.10.BUILD-SNAPSHOT/eca8fab672e2304ab0f4479b687ed2c56f825798/spring-boot-starter-json-2.1.10.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.1.10.BUILD-SNAPSHOT/26bd5b9687e941a2a322e1269e389fec9063914d/spring-boot-starter-json-2.1.10.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.1.10.BUILD-SNAPSHOT/aa6ccc2b82738a72db898d712d1bd72dd719d2b0/spring-boot-starter-json-2.1.10.BUILD-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.1.10.BUILD-SNAPSHOT/7e9884dd93d83d8e2ce8e6e0e8f9f372fd042fa8/spring-boot-starter-json-2.1.10.BUILD-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

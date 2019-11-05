@@ -1,11 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:2.1.10.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.1.10.BUILD-SNAPSHOT/f64790e134d1917300c8a774edd40a85b8fa8fe5/spring-boot-test-autoconfigure-2.1.10.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.1.10.BUILD-SNAPSHOT/15801c26f338ba2d4e21f7c36c2b3bb748e09686/spring-boot-test-autoconfigure-2.1.10.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.1.10.BUILD-SNAPSHOT/22d7de4c6dccc5e1627f9e6292f2301f6b212844/spring-boot-test-autoconfigure-2.1.10.BUILD-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.1.10.BUILD-SNAPSHOT/7d87c8a382cdc5c8d0906abd35c0dbb0ef1f66d3/spring-boot-test-autoconfigure-2.1.10.BUILD-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

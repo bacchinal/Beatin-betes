@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="'http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <title></title>
+</head>
+<body>
+<h1 th:text="${title}">Beatin' 'Betes</h1>
+<nav th:replace="fragments :: navigation"></nav>
+<h2>Add a Meal</h2>
+<form method = "post">
+    <table>
+        <tr>
+            <td> <label for="name">Meal</label></td>
+            <td><input id="name" type="text" name="name"  /></td>
+        </tr>
+        <tr>
+            <td><label for="description">Descripiton</label></td>
+            <td><input id="description" type="text" name ="description" /></td>
+        </tr>
+
+        <tr>
+            <td><label for="carbCount">Carb Count</label></td>
+            <td><input id="carbCount" type="number" name ="carbCount" /></td>
+        </tr>
+    </table>
+</form>
+<input type="submit" value="Add" />
+</body>
+</html>
