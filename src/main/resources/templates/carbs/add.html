@@ -8,7 +8,7 @@
 <h1 th:text="${title}">Beatin' 'Betes</h1>
 <nav th:replace="fragments :: navigation"></nav>
 <h2>Add a Meal</h2>
-<form method = "post">
+<form>
     <table>
         <tr>
             <td> <label for="name">Meal</label></td>
@@ -21,7 +21,7 @@
 
         <tr>
             <td><label for="carbCount">Carb Count</label></td>
-            <td><input id="carbCount" type="number" name ="carbCount" /></td>
+            <td><input id="carbCount" type="text" name ="carbCount" /></td>
         </tr>
     </table>
 </form>

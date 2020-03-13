@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 @RequestMapping("/carbs")
@@ -19,6 +20,7 @@ public class Carbs {
     @RequestMapping(value="")
     public String index(Model model){
         model.addAttribute("title", "Beatin Betes");
+        model.addAttribute("meals", mealDao.findAll());
         return "carbs/index";
     }
 //@TODO #2    Fix database issue for meals/carbs.
@@ -29,10 +31,11 @@ public class Carbs {
         return "carbs/add";
     }
     @RequestMapping(value = "add", method = RequestMethod.POST)
-    public String processMealForm(@ModelAttribute  Meal newMeal, Model model){
+    public String processMealForm(@ModelAttribute  Meal newMeal, Model model, @RequestParam String name, @RequestParam String description, @RequestParam int carbCount){
         model.addAttribute("tile", "Beatin Betes");
         mealDao.save(newMeal);
+        model.addAttribute("meals", mealDao.findAll());
 
-        return "carbs/index" ;
+        return "redirect:carbs/index" ;
     }
 }

@@ -9,5 +9,25 @@
 <nav th:replace="fragments :: navigation"></nav>
 <h2>Meal Log</h2>
 <<a href="/carbs/add">Add a meal</a>
+
+<p th:unless="${meals} and ${meals.size()}">Nothing to report :(</p>
+
+
+<table class="table">
+
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Carb count</th>
+    </tr>
+
+    <tr th:each="meal : ${meals}">
+        <td th:text="${meal.name}"></td>
+        <td th:text="${meal.description}"></td>
+        <td th:text="${meal.category.name}"></td>
+    </tr>
+<!--    <a href="/carb/add">Add</a> |-->
+<!--    <a href="/meal/remove">Remove</a>-->
+</table>
 </body>
 </html>

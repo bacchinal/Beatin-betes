@@ -14,17 +14,17 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.validation.Valid;
 
 @Controller
-@RequestMapping("user")
+
 public class Users {
     @Autowired
     private UserDao userDao;
 
-    @RequestMapping(value="", method = RequestMethod.GET)
+    @RequestMapping(value="/login", method = RequestMethod.GET)
     public String displayLoginForm(Model model) {
         model.addAttribute("title", "Beatin' 'Betes");
         return "user/login";
     }
-    @RequestMapping(value="", method = RequestMethod.POST)
+    @RequestMapping(value="/login", method = RequestMethod.POST)
     public String processLoginForm(Model model, User user, @RequestParam String name, @RequestParam String password, Errors errors){
 //  @TODO #1  Fix user login. access user from database etc.
 //        user = user.getPassword();

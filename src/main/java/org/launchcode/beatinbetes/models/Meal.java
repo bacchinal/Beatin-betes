@@ -20,12 +20,12 @@ public class Meal {
     @Size(min=1, message = "Description must not be empty")
     private String description;
 
-    private String carbCount;
+    private int carbCount;
 
 
 
 
-    public Meal(String name, String description, String carbCount) {
+    public Meal(String name, String description, int carbCount) {
         this.name = name;
         this.description = description;
     }
@@ -52,11 +52,11 @@ public class Meal {
         this.description = description;
     }
 
-    public String getCarbCount() {
+    public int getCarbCount() {
         return carbCount;
     }
 
-    public void setCarbCount(String carbCount) {
+    public void setCarbCount(int carbCount) {
         this.carbCount = carbCount;
     }
 }
